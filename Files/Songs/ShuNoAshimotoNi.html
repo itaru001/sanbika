@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+	<head>
+		
+		<title>賛美歌</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<link href="../SongStyle.css" rel="stylesheet" type="text/css"  media="all" />
+		<script type="text/javascript" src="../jquery-1.11.2.js"></script>
+		<script type="text/javascript" src="../Javascript.js"></script>
+		<script type="text/javascript" src="../Tenchou.js"></script>
+
+		<script type="text/javascript" src="ShuNoAshimotoNi.js"></script>
+
+		</head>
+
+		<script type="text/javascript">
+			uta = new Uta("D");
+		</script>
+	
+
+
+	<body>
+		<nav id="Navigation">
+			<div id="Title" onclick="HomeFromSong();">賛美歌</div>
+	
+			<div id="Links">
+				<ul>
+					
+					
+					<li id="Seisho"><a href="http://www.bible.or.jp/read/vers_search.html"  target="_blank"><img src="../Pictures/SeishoShiro.png"/></a></li>
+					<li id="Info"><a href="../info.html"><img src="../Pictures/InfoShiro.png"/></a></li>
+					<li id="Home"><a href="../../index.html"><img src="../Pictures/HomeShiro.png"/></a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<p id="SongTitle">主の足元に</p>
+
+
+
+		<div id="selectHako">
+
+			<select onchange="uta = uta.Tenchou(uta), Jissou(uta);" id="keyHako">		
+				<option id="cTenchou" value="C">C</option>
+				<option id="cSharpTenchou" value="C♯">C♯</option>
+				<option selected id="dTenchou" value="D">D</option>
+				<option id="dSharpTenchou" value="D♯">D♯</option>
+				<option id="eTenchou" value="E">E</option>
+				<option id="fTenchou" value="F">F</option>
+				<option id="fSharpTenchou" value="F♯">F♯</option>
+				<option id="gTenchou" value="G">G</option>
+				<option id="gSharpTenchou" value="G♯">G♯</option>
+				<option id="aTenchou" value="A">A</option>
+				<option id="aSharpTenchou" value="A♯">A♯</option>
+				<option id="bTenchou" value="B">B</option>			
+
+				<div id="Lines"></div>
+			</select>
+
+		</div>
+
+
+		<div class="Song">
+
+			<!-- Verse -->
+			<div class="Chords"><span id="chord1">D</span>　　　<span id="chord2">A</span>　　　　<span id="chord3">G</span>　　　　　<span id="chord4">D</span></div>
+			<div class="Kashi">主の足元に　身をかがめて</div>
+
+			<div class="Chords">　　<span id="chord5">G</span>　　　　<span id="chord6">D</span>　　　　<span id="chord7">Em</span>　　　　<span id="chord8">A</span></div>
+			<div class="Kashi">ひれ伏し　礼拝　ささげます</div>
+			
+			<div class="Chords"><span id="chord9">D</span>　　　　<span id="chord10">A</span>　　　<span id="chord11">G</span>　　　<span id="chord12">D</span></div>
+			<div class="Kashi">香油を注ぎ　涙の髪で</div>
+
+			<div class="Chords"><span id="chord13">G</span>　　　　<span id="chord14">D</span>　　　　<span id="chord15">Em</span>　　　<span id="chord16">A</span></div>
+			<div class="Kashi">拭う愛する　主の御足を</div>
+
+			<div class="Aida"></div>
+
+			<!-- サビ -->
+			<div class="Chords"><span id="chord17">D</span>　　　<span id="chord18">A</span>　　　<span id="chord19">G</span>　　　<span id="chord20">D/F♯</span></div>
+			<div class="Kashi">心砕き　栄光脱ぎ捨て</div>
+
+			<div class="Chords">　　　<span id="chord21">G</span>　　　　<span id="chord22">D/F♯</span>　　　　<span id="chord23">Em</span>　　<span id="chord24">A7</span></div>
+			<div class="Kashi">ただあなたを求めます</div>
+
+			<div class="Chords">　　　<span id="chord25">Bm</span>　　<span id="chord26">F♯m</span>　　<span id="chord27">G</span>　　　　<span id="chord28">D/F♯</span></div>
+			<div class="Kashi">あなたの御顔　慕い求めます</div>
+
+			<div class="Chords">　<span id="chord29">Em</span>　　<span id="chord30">A</span>　　　<span id="chord31">D</span></div>
+			<div class="Kashi">賛美ささげます</div>
+
+			
+		</div>
+
+
+
+
+
+		<div class="douga">
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/NvCjOlv6qMM?start=470" frameborder="0" allowfullscreen></iframe>				
+		</div>
+
+
+		<div id="Label"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
