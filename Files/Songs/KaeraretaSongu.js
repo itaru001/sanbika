@@ -73,7 +73,7 @@ function Jissou(uta) {
 	chord23.innerHTML = uta.getSharpC();
 
 	var chord24 = document.getElementById("chord24");
-	chord24.innerHTML = uta.getSharpG() + "/"; + uta.getSharpB();
+	chord24.innerHTML = uta.getSharpG() + "/" + uta.getSharpB();
 
 	var chord25 = document.getElementById("chord25");
 	chord25.innerHTML = uta.getSharpA() + "m";
