@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+	<head>
+
+		<link rel="shorcut icon" href="../Pictures/onpu.ico"/>
+		<title>賛美歌</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<link href="../SongStyle.css" rel="stylesheet" type="text/css"  media="all" />
+		<script type="text/javascript" src="../jquery-1.11.2.js"></script>
+		<script type="text/javascript" src="../Javascript.js"></script>
+		<script type="text/javascript" src="../Tenchou.js"></script>
+
+		<script type="text/javascript" src="SonoHiZenSekaiGa.js"></script>
+
+		</head>
+
+		<script type="text/javascript">
+			uta = new Uta("A");
+		</script>
+	
+
+
+	<body>
+		<nav id="Navigation">
+			<div id="Title" onclick="HomeFromSong();">賛美歌</div>
+	
+			<div id="Links">
+				<ul>
+					
+					
+					<li id="Seisho"><a href="http://www.bible.or.jp/read/vers_search.html"  target="_blank"><img src="../Pictures/SeishoShiro.png"/></a></li>
+					<li id="Info"><a href="../info.html"><img src="../Pictures/InfoShiro.png"/></a></li>
+					<li id="Home"><a href="../../index.html"><img src="../Pictures/HomeShiro.png"/></a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<p id="SongTitle">その日全世界が</p>
+
+
+
+		<div id="selectHako">
+
+			<select onchange="uta = uta.Tenchou(uta), Jissou(uta);" id="keyHako">		
+				<option id="cTenchou" value="C">C</option>
+				<option id="cSharpTenchou" value="C♯">C♯</option>
+				<option id="dTenchou" value="D">D</option>
+				<option id="dSharpTenchou" value="D♯">D♯</option>
+				<option id="eTenchou" value="E">E</option>
+				<option id="fTenchou" value="F">F</option>
+				<option id="fSharpTenchou" value="F♯">F♯</option>
+				<option id="gTenchou" value="G">G</option>
+				<option id="gSharpTenchou" value="G♯">G♯</option>
+				<option selected id="aTenchou" value="A">A</option>
+				<option id="aSharpTenchou" value="A♯">A♯</option>
+				<option id="bTenchou" value="B">B</option>			
+
+				<div id="Lines"></div>
+			</select>
+
+		</div>
+
+
+		<div class="Song">
+
+			<div class="Chords">　  <span id="chord1">A</span>　　<span id="chord2">E/G♯</span>　　<span id="chord3">F♯m</span>　　<span id="chord4">C♯m7</span>　　<span id="chord5">D</span>　　　<span id="chord6">A/C♯</span>　　<span id="chord7">G</span>　　<span id="chord8">E</span></div>
+			<div class="Kashi">我が神主よ　見させたまえ　偉大なるその計画</div>
+
+			<div class="Chords"><span id="chord9">A</span>　　<span id="chord10">E/G♯</span>　<span id="chord11">F♯m</span>　<span id="chord12">C♯m7</span>　　　<span id="chord13">D</span>　　<span id="chord14">A/C♯</span>　　　　<span id="chord15">G</span>　　<span id="chord16">E</span></div>
+			<div class="Kashi">天が開き　光が満ち　シオンの上にとどまる</div>
+
+			<div class="Chords"><span id="chord17">A</span>　　<span id="chord18">E/G♯</span>　<span id="chord19">F♯m</span>　　<span id="chord20">G♯m7</span>　<span id="chord21">D</span>　　<span id="chord22">A/C♯</span>　　<span id="chord23">G</span>　　<span id="chord24">E</span></div>
+			<div class="Kashi">救いの御業全地を覆い　喜びの歌響かせ</div>
+
+			<div class="Chords">　<span id="chord25">A</span>　<span id="chord26">E/G♯</span>　<span id="chord27">F♯m</span>　　<span id="chord28">C♯m7</span>　　<span id="chord29">D</span>　　<span id="chord30">A/C♯</span>　　<span id="chord31">G</span>　　<span id="chord32">Esus4</span></div>
+			<div class="Kashi">その正義は平和を呼ぶ　主の御霊が流れる</div>
+
+			<div class="Aida"></div>
+
+			<div class="Chords"><span id="chord33">A</span>　<span id="chord34">E/G♯</span>　<span id="chord35">F♯m</span>　<span id="chord36">E</span>　　<span id="chord37">D</span>　<span id="chord38">A/C♯</span>　<span id="chord39">Bm7</span>　<span id="chord40">E</span></div>
+			<div class="Kashi">その日全世界が主の御名高く掲げる</div>
+
+			<div class="Chords"><span id="chord41">A</span>　<span id="chord42">E/G♯</span>　　<span id="chord43">F♯m</span>　　　<span id="chord44">E</span>　　　  <span id="chord45">D</span>　　<span id="chord46">A/C♯</span>　<span id="chord47">Bm7</span>　<span id="chord48">E</span>　　　<span id="chord49">A</span></div>
+			<div class="Kashi">叫べ　王の王イエスに　ハレルヤ　栄光とわにあれ</div>
+
+			<div class="Aida"></div>
+
+			<div class="Chords"><span id="chord50">E</span>　　　　　　　　<span id="chord51">D</span>　　　<span id="chord52">A</span>　　<span id="chord53">E</span>　　　　　　<span id="chord54">D</span>　　　<span id="chord55">A</span></div>
+			<div class="Kashi">王の王なる主イエスに　全能なる主イエスに</div>
+
+			<div class="Chords"><span id="chord56">E</span>　　　　　　<span id="chord57">D</span>　　<span id="chord58">A</span>　　　<span id="chord59">Bm7</span>　<span id="chord60">D</span>　　　<span id="chord61">E</span></div>
+			<div class="Kashi">勝利者なる小羊に　栄光とわにあれ</div>
+
+		
+
+		</div>
+
+		<div class="douga">
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/JTUrlAjNL0I" frameborder="0" allowfullscreen></iframe>
+		</div>
+
+
+		<div id="Label"></div>
+
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
