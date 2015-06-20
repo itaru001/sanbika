@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+	<head>
+		<link rel="shorcut icon" href="../Pictures/onpu.ico"/>
+		<title>賛美歌</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<link href="../SongStyle.css" rel="stylesheet" type="text/css"  media="all" />
+		<script type="text/javascript" src="../jquery-1.11.2.js"></script>
+		<script type="text/javascript" src="../Javascript.js"></script>
+		<script type="text/javascript" src="../Tenchou.js"></script>
+
+		<script type="text/javascript" src="ShitaiMotomemasu.js"></script>
+
+		</head>
+
+		<script type="text/javascript">
+			uta = new Uta("F");
+		</script>
+	
+
+
+	<body>
+		<nav id="Navigation">
+			<div id="Title" onclick="HomeFromSong();">賛美歌</div>
+	
+			<div id="Links">
+				<ul>
+					
+					
+					<li id="Seisho"><a href="http://www.bible.or.jp/read/vers_search.html"  target="_blank"><img src="../Pictures/SeishoShiro.png"/></a></li>
+					<li id="Info"><a href="../info.html"><img src="../Pictures/InfoShiro.png"/></a></li>
+					<li id="Home"><a href="../../index.html"><img src="../Pictures/HomeShiro.png"/></a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<p id="SongTitle">慕い求めます</p>
+
+
+
+		<div id="selectHako">
+
+			<select onchange="uta = uta.Tenchou(uta), Jissou(uta);" id="keyHako">		
+				<option id="cTenchou" value="C">C</option>
+				<option id="cSharpTenchou" value="C♯">C♯</option>
+				<option id="dTenchou" value="D">D</option>
+				<option id="dSharpTenchou" value="D♯">D♯</option>
+				<option id="eTenchou" value="E">E</option>
+				<option selected id="fTenchou" value="F">F</option>
+				<option id="fSharpTenchou" value="F♯">F♯</option>
+				<option id="gTenchou" value="G">G</option>
+				<option id="gSharpTenchou" value="G♯">G♯</option>
+				<option id="aTenchou" value="A">A</option>
+				<option id="aSharpTenchou" value="A♯">A♯</option>
+				<option id="bTenchou" value="B">B</option>			
+
+				<div id="Lines"></div>
+			</select>
+
+		</div>
+
+
+		<div class="Song">
+
+			<div class="Chords"><span id="chord1">F</span>　<span id="chord2">C/E</span>　　<span id="chord3">Dm</span>　 <span id="chord4">F/C</span>　　<span id="chord5">B♭</span>　  <span id="chord6">F/A</span>　　  <span id="chord7">Gm7</span>  　　<span id="chord8">C</span></div>
+			<div class="Kashi">イエス　愛します　愛します　こころ注ぎ</div>
+
+			<div class="Chords"><span id="chord9">F</span>　<span id="chord10">C♯dim</span>　<span id="chord11">Dm</span>　　  <span id="chord12">F/C</span>　  <span id="chord13">B♭</span>　<span id="chord14">Gm7/C</span>　<span id="chord15">C7</span>　　<span id="chord16">F</span></div>
+			<div class="Kashi">ただ　　あなただけ　慕い求めーーーます</div>
+
+			<div class="Aida"></div>
+
+			<div class="Chords"><span id="chord17">F7</span>　　　<span id="chord18">B♭</span>　　　　　<span id="chord19">F/A</span>　　　　<span id="chord20">Gm7</span>　<span id="chord21">C7</span> 　 <span id="chord22">F</span></div>
+			<div class="Kashi">あふれる　あふれる　あなたを慕う思い</div>
+
+			<div class="Chords"><span id="chord23">F7</span>　　　<span id="chord24">B♭</span>　　　<span id="chord25">F/A</span>　　<span id="chord26">Dm</span>　　<span id="chord27">Gm7</span>　   <span id="chord28">C7</span>　　<span id="chord29">F</span></div>
+			<div class="Kashi">みそばに引き寄せて主よ　慕い求めます</div>
+
+		</div>
+
+		<div class="douga">
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/dURuQ_Wlx_4" frameborder="0" allowfullscreen></iframe>
+		</div>
+
+
+		<div id="Label"></div>
+
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
