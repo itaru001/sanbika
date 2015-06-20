@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+	<head>
+		<link rel="shorcut icon" href="../Pictures/onpu.ico"/>
+		<title>賛美歌</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<link href="../SongStyle.css" rel="stylesheet" type="text/css"  media="all" />
+		<script type="text/javascript" src="../jquery-1.11.2.js"></script>
+		<script type="text/javascript" src="../Javascript.js"></script>
+		<script type="text/javascript" src="../Tenchou.js"></script>
+
+		<script type="text/javascript" src="IesuGaAishitaYouNi.js"></script>
+
+		</head>
+
+		<script type="text/javascript">
+			uta = new Uta("A");
+		</script>
+	
+
+
+	<body>
+		<nav id="Navigation">
+			<div id="Title" onclick="HomeFromSong();">賛美歌</div>
+	
+			<div id="Links">
+				<ul>
+					
+					
+					<li id="Seisho"><a href="http://www.bible.or.jp/read/vers_search.html"  target="_blank"><img src="../Pictures/SeishoShiro.png"/></a></li>
+					<li id="Info"><a href="../info.html"><img src="../Pictures/InfoShiro.png"/></a></li>
+					<li id="Home"><a href="../../index.html"><img src="../Pictures/HomeShiro.png"/></a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<p id="SongTitle">イエスが愛したように</p>
+
+
+
+		<div id="selectHako">
+
+			<select onchange="uta = uta.Tenchou(uta), Jissou(uta);" id="keyHako">		
+				<option id="cTenchou" value="C">C</option>
+				<option id="cSharpTenchou" value="C♯">C♯</option>
+				<option id="dTenchou" value="D">D</option>
+				<option id="dSharpTenchou" value="D♯">D♯</option>
+				<option id="eTenchou" value="E">E</option>
+				<option id="fTenchou" value="F">F</option>
+				<option id="fSharpTenchou" value="F♯">F♯</option>
+				<option id="gTenchou" value="G">G</option>
+				<option id="gSharpTenchou" value="G♯">G♯</option>
+				<option selected id="aTenchou" value="A">A</option>
+				<option id="aSharpTenchou" value="A♯">A♯</option>
+				<option id="bTenchou" value="B">B</option>			
+
+				<div id="Lines"></div>
+			</select>
+
+		</div>
+
+
+		<div class="Song">
+
+			<div class="Chords"><span id="chord1">A</span>　　　　<span id="chord2">F♯m</span>　　　<span id="chord3">C♯m</span>　<span id="chord4">F♯m</span>　　　<span id="chord5">D</span>　　　　<span id="chord6">E</span>　　　　<span id="chord7">A</span>　<span id="chord8">A7</span></div>
+			<div class="Kashi">イエスが愛したように 　　わたしたちも愛し合う</div>
+
+			<div class="Chords">　　　<span id="chord9">D</span>　　　<span id="chord10">E/D</span>　<span id="chord11">C♯m</span>　　<span id="chord12">F♯m</span>　　　<span id="chord13">Bm7</span>　　<span id="chord14">E7</span>　<span id="chord15">A</span></div>
+			<div class="Kashi">その愛の中で　枝となる時　多くの実を結ぶ</div>
+
+			<div class="Chords"><span id="chord16">A</span>　　　　<span id="chord17">F♯m</span>　　　<span id="chord18">C♯m</span>　<span id="chord19">F♯m</span>　　　<span id="chord20">D</span>　　　　<span id="chord21">E</span>　　　　<span id="chord22">A</span>　<span id="chord23">A7</span></div>
+			<div class="Kashi">イエスが愛したように　　わたしたちも愛し合う</div>
+
+			<div class="Chords">　　<span id="chord24">D</span>　　　　<span id="chord25">E/D</span>　　　<span id="chord26">C♯m</span>　　<span id="chord27">F♯m</span>　　<span id="chord28">Bm7</span>　<span id="chord29">E7</span>　　<span id="chord30">A</span>　<span id="chord31">A7</span>　</div>
+			<div class="Kashi">人が友のため　いのちを捨てるほどの愛はない</div>
+
+			<div class="Aida"></div>
+
+			<div class="Chords">　　　　<span id="chord32">D</span>　　　<span id="chord33">E/D</span>　　　　　<span id="chord34">C♯m</span>　<span id="chord35">F♯m</span></div>
+			<div class="Kashi">ともに捧げ合い　ともに助け合う</div>
+
+			<div class="Chords">　　<span id="chord36">Bm7</span>　<span id="chord37">E</span>　　<span id="chord38">A</span>　<span id="chord39">A7</span></div>
+			<div class="Kashi">イエスの愛で</div>
+
+			<div class="Chords">　　　　<span id="chord40">D</span>　　　<span id="chord41">E/D</span>　　　　　<span id="chord42">C♯m</span>　<span id="chord43">F♯m</span></div>
+			<div class="Kashi">ともに祈り合い　ともに笑い合う</div>
+
+			<div class="Chords">　　<span id="chord44">Bm7</span>　<span id="chord45">E7</span>　　　<span id="chord46">A</span></div>
+			<div class="Kashi">イエスの愛のなか</div>
+
+		</div>
+
+		<div class="douga">
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/F6LyZ638648" frameborder="0" allowfullscreen></iframe>
+		</div>
+
+
+		<div id="Label"></div>
+
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
