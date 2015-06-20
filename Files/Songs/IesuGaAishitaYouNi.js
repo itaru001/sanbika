@@ -49,7 +49,7 @@ function Jissou(uta) {
 
 	chord1.innerHTML = uta.getSharpA();
 	chord2.innerHTML = uta.getSharpFSharp() + "m";
-	chord3.innerHTML = uta.getSharpCSharp() + "m"
+	chord3.innerHTML = uta.getSharpCSharp() + "m";
 	chord4.innerHTML = uta.getSharpFSharp() + "m";
 	chord5.innerHTML = uta.getSharpD();
 	chord6.innerHTML = uta.getSharpE();
